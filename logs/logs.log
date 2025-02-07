@@ -1,0 +1,12 @@
+2025-02-07 10:30:46,896 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-07 10:30:46,909 - INFO - DataFrame Shape: (151112, 11)
+2025-02-07 10:30:46,939 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 10:30:46,998 - INFO - Missing values check completed.
+2025-02-07 10:30:50,588 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-07 10:30:50,588 - INFO - DataFrame Shape: (284807, 31)
+2025-02-07 10:30:50,611 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 10:30:50,639 - INFO - Missing values check completed.
+2025-02-07 10:30:50,789 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-07 10:30:50,800 - INFO - DataFrame Shape: (138846, 3)
+2025-02-07 10:30:50,821 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 10:30:50,845 - INFO - Missing values check completed.
