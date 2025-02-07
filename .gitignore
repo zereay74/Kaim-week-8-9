@@ -1,2 +1,27 @@
 /week 8-9 data
 req_extractor.py
+# Ignore all .pyc files (compiled Python files)
+*.pyc
+/my_project
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore session files (common patterns for editors/IDEs)
+*.session
+*.session.lock
+*.swp
+*.swo
+*.swn
+*.un~
+*.tmp
+*.temp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
