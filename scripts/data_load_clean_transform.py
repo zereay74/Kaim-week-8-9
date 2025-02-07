@@ -86,22 +86,21 @@ class DataCleaner:
             'Data Type': self.df.dtypes
         }).reset_index(drop=True)
 
-    def transform_datetime(self, column, timezone):
+    def transform_datetime(self, column):
         """
-        Convert a datetime column to a specified timezone.
+        Convert a datetime column without considering time zones.
         :param column: Name of the datetime column.
-        :param timezone: Target timezone (e.g., 'UTC', 'America/New_York').
         """
-        logger.info(f"Transforming datetime column '{column}' to timezone '{timezone}'.")
+        logger.info(f"Transforming datetime column '{column}' without timezone conversion.")
         if column not in self.df.columns:
             logger.error(f"Column '{column}' does not exist in the DataFrame.")
             return
         try:
             self.df[column] = pd.to_datetime(self.df[column])
-            self.df[column] = self.df[column].dt.tz_localize(None).dt.tz_localize(timezone)
             logger.info(f"Datetime transformation for column '{column}' completed.")
         except Exception as e:
             logger.error(f"An error occurred while transforming datetime: {e}")
+
     def drop_column(self, column):
         """
         Drop a specified column from the DataFrame.

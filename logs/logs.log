@@ -10,3 +10,147 @@
 2025-02-07 10:30:50,800 - INFO - DataFrame Shape: (138846, 3)
 2025-02-07 10:30:50,821 - INFO - Checking for missing values in the DataFrame.
 2025-02-07 10:30:50,845 - INFO - Missing values check completed.
+2025-02-07 11:24:04,341 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-07 11:24:04,520 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-07 11:24:04,520 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-07 11:24:04,703 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-07 11:24:08,353 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 11:24:08,415 - INFO - Missing values check completed.
+2025-02-07 14:08:02,823 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:03:51,714 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:09:53,589 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:11:06,906 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:11:06,977 - INFO - Missing values check completed.
+2025-02-07 15:11:36,798 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-07 15:11:36,799 - INFO - DataFrame Shape: (151112, 11)
+2025-02-07 15:11:36,840 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-07 15:11:37,053 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-07 15:11:37,055 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-07 15:11:37,266 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-07 15:11:37,282 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:11:37,377 - INFO - Missing values check completed.
+2025-02-07 15:11:41,420 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-07 15:11:41,422 - INFO - DataFrame Shape: (284807, 31)
+2025-02-07 15:11:41,453 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:11:41,511 - INFO - Missing values check completed.
+2025-02-07 15:11:41,737 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-07 15:11:41,738 - INFO - DataFrame Shape: (138846, 3)
+2025-02-07 15:11:41,754 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:11:41,769 - INFO - Missing values check completed.
+2025-02-07 15:11:41,835 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:11:42,333 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:11:42,390 - INFO - Missing values check completed.
+2025-02-07 15:12:55,305 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:12:55,393 - INFO - Missing values check completed.
+2025-02-07 15:20:07,341 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-07 15:20:07,342 - INFO - DataFrame Shape: (151112, 11)
+2025-02-07 15:20:07,427 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-07 15:20:07,748 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-07 15:20:07,750 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-07 15:20:08,132 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-07 15:20:08,172 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:20:08,258 - INFO - Missing values check completed.
+2025-02-07 15:20:13,461 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-07 15:20:13,463 - INFO - DataFrame Shape: (284807, 31)
+2025-02-07 15:20:13,487 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:20:13,517 - INFO - Missing values check completed.
+2025-02-07 15:20:13,669 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-07 15:20:13,671 - INFO - DataFrame Shape: (138846, 3)
+2025-02-07 15:20:13,692 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:20:13,713 - INFO - Missing values check completed.
+2025-02-07 15:20:13,798 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:22:54,644 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-07 15:22:54,646 - INFO - DataFrame Shape: (151112, 11)
+2025-02-07 15:22:54,695 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-07 15:22:54,928 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-07 15:22:54,930 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-07 15:22:55,213 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-07 15:22:55,242 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:22:55,321 - INFO - Missing values check completed.
+2025-02-07 15:22:59,697 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-07 15:22:59,699 - INFO - DataFrame Shape: (284807, 31)
+2025-02-07 15:22:59,726 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:22:59,763 - INFO - Missing values check completed.
+2025-02-07 15:22:59,931 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-07 15:22:59,932 - INFO - DataFrame Shape: (138846, 3)
+2025-02-07 15:22:59,948 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:22:59,964 - INFO - Missing values check completed.
+2025-02-07 15:23:00,057 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:23:01,454 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:23:01,517 - INFO - Missing values check completed.
+2025-02-07 15:32:29,421 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-07 15:32:29,423 - INFO - DataFrame Shape: (151112, 11)
+2025-02-07 15:32:29,465 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-07 15:32:29,602 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-07 15:32:29,603 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-07 15:32:29,747 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-07 15:32:29,761 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:32:29,803 - INFO - Missing values check completed.
+2025-02-07 15:32:32,253 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-07 15:32:32,255 - INFO - DataFrame Shape: (284807, 31)
+2025-02-07 15:32:32,279 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:32:32,300 - INFO - Missing values check completed.
+2025-02-07 15:32:32,412 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-07 15:32:32,413 - INFO - DataFrame Shape: (138846, 3)
+2025-02-07 15:32:32,428 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:32:32,441 - INFO - Missing values check completed.
+2025-02-07 15:32:32,492 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:35:04,603 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-07 15:35:04,605 - INFO - DataFrame Shape: (151112, 11)
+2025-02-07 15:35:04,652 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-07 15:35:04,825 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-07 15:35:04,827 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-07 15:35:05,098 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-07 15:35:05,112 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:35:05,163 - INFO - Missing values check completed.
+2025-02-07 15:35:07,660 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-07 15:35:07,661 - INFO - DataFrame Shape: (284807, 31)
+2025-02-07 15:35:07,686 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:35:07,714 - INFO - Missing values check completed.
+2025-02-07 15:35:07,856 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-07 15:35:07,857 - INFO - DataFrame Shape: (138846, 3)
+2025-02-07 15:35:07,872 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:35:07,887 - INFO - Missing values check completed.
+2025-02-07 15:35:07,945 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:35:08,517 - INFO - IP address conversion completed successfully.
+2025-02-07 15:36:54,167 - INFO - Merging fraud_data with ip_address_data.
+2025-02-07 15:38:33,777 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-07 15:38:33,777 - INFO - DataFrame Shape: (151112, 11)
+2025-02-07 15:38:33,821 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-07 15:38:33,933 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-07 15:38:33,935 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-07 15:38:34,054 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-07 15:38:34,070 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:38:34,112 - INFO - Missing values check completed.
+2025-02-07 15:38:36,492 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-07 15:38:36,493 - INFO - DataFrame Shape: (284807, 31)
+2025-02-07 15:38:36,519 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:38:36,551 - INFO - Missing values check completed.
+2025-02-07 15:38:36,725 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-07 15:38:36,727 - INFO - DataFrame Shape: (138846, 3)
+2025-02-07 15:38:36,760 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 15:38:36,771 - INFO - Missing values check completed.
+2025-02-07 15:38:36,870 - INFO - Converting IP addresses to integer format.
+2025-02-07 15:38:37,306 - INFO - IP address conversion completed successfully.
+2025-02-07 15:38:37,320 - INFO - Merging fraud_data with ip_address_data.
+2025-02-07 19:40:19,160 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-07 19:40:19,161 - INFO - DataFrame Shape: (151112, 11)
+2025-02-07 19:40:19,209 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-07 19:40:19,446 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-07 19:40:19,451 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-07 19:40:19,721 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-07 19:40:19,737 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 19:40:19,792 - INFO - Missing values check completed.
+2025-02-07 19:40:24,745 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-07 19:40:24,749 - INFO - DataFrame Shape: (284807, 31)
+2025-02-07 19:40:24,781 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 19:40:24,841 - INFO - Missing values check completed.
+2025-02-07 19:40:25,045 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-07 19:40:25,046 - INFO - DataFrame Shape: (138846, 3)
+2025-02-07 19:40:25,063 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 19:40:25,083 - INFO - Missing values check completed.
+2025-02-07 19:40:25,145 - INFO - Converting IP addresses to integer format.
+2025-02-07 19:40:26,526 - INFO - IP address conversion completed successfully.
+2025-02-07 19:40:26,569 - INFO - Merging fraud_data with ip_address_data.
+2025-02-07 19:41:46,250 - INFO - Checking for missing values in the DataFrame.
+2025-02-07 19:41:46,338 - INFO - Missing values check completed.
