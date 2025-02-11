@@ -31805,3 +31805,156 @@
 2025-02-10 16:27:13,796 - ERROR - The following columns do not exist in the DataFrame: country
 2025-02-10 16:27:52,959 - INFO - Checking for missing values in the DataFrame.
 2025-02-10 16:27:53,024 - INFO - Missing values check completed.
+2025-02-10 16:28:05,119 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-10 16:28:05,120 - INFO - DataFrame Shape: (151112, 11)
+2025-02-10 16:28:05,156 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-10 16:28:05,285 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-10 16:28:05,285 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-10 16:28:05,366 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-10 16:28:05,387 - INFO - Checking for missing values in the DataFrame.
+2025-02-10 16:28:05,419 - INFO - Missing values check completed.
+2025-02-10 16:28:07,366 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-10 16:28:07,366 - INFO - DataFrame Shape: (284807, 31)
+2025-02-10 16:28:07,388 - INFO - Checking for missing values in the DataFrame.
+2025-02-10 16:28:07,412 - INFO - Missing values check completed.
+2025-02-10 16:28:07,507 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-10 16:28:07,508 - INFO - DataFrame Shape: (138846, 3)
+2025-02-10 16:28:07,521 - INFO - Checking for missing values in the DataFrame.
+2025-02-10 16:28:07,532 - INFO - Missing values check completed.
+2025-02-10 16:28:07,876 - INFO - Converting IP addresses to integer format.
+2025-02-10 16:28:07,891 - INFO - IP address conversion completed successfully.
+2025-02-10 16:28:07,905 - INFO - Merging fraud_data with ip_address_data.
+2025-02-10 16:28:07,985 - INFO - Merging completed successfully.
+2025-02-10 16:28:08,060 - INFO - Adding transaction frequency feature.
+2025-02-10 16:28:08,135 - INFO - Adding time-based features.
+2025-02-10 16:28:08,202 - INFO - Normalizing numerical features.
+2025-02-10 16:28:08,253 - INFO - Checking for missing values in the DataFrame.
+2025-02-10 16:28:08,320 - INFO - Missing values check completed.
+2025-02-10 16:28:08,343 - INFO - Removing rows with null values in columns: ['lower_bound_ip_address', 'upper_bound_ip_address', 'country'].
+2025-02-10 16:28:08,391 - INFO - Rows with null values in columns ['lower_bound_ip_address', 'upper_bound_ip_address', 'country'] removed successfully.
+2025-02-10 16:28:08,405 - INFO - Checking for missing values in the DataFrame.
+2025-02-10 16:28:08,455 - INFO - Missing values check completed.
+2025-02-10 16:28:08,536 - INFO - Encoding categorical features.
+2025-02-10 16:28:39,898 - INFO - Checking for missing values in the DataFrame.
+2025-02-10 16:28:39,980 - INFO - Missing values check completed.
+2025-02-10 16:30:18,341 - INFO - Removing rows with null values in columns: Index(['user_id', 'signup_time', 'purchase_time', 'purchase_value',
+       'device_id', 'source', 'browser', 'sex', 'age', 'ip_address', 'class',
+       'ip_int', 'lower_bound_ip_address', 'upper_bound_ip_address',
+       'transaction_count', 'hour_of_day', 'day_of_week', 'country_Australia',
+       'country_Brazil', 'country_Canada', 'country_China', 'country_France',
+       'country_Germany', 'country_Japan', 'country_Korea Republic of',
+       'country_Other', 'country_United Kingdom', 'country_United States'],
+      dtype='object').
+2025-02-10 16:30:18,344 - ERROR - Columns parameter should be a list of column names.
+2025-02-10 16:31:01,079 - INFO - Removing rows with null values in columns: Index(['user_id', 'signup_time', 'purchase_time', 'purchase_value',
+       'device_id', 'source', 'browser', 'sex', 'age', 'ip_address', 'class',
+       'ip_int', 'lower_bound_ip_address', 'upper_bound_ip_address',
+       'transaction_count', 'hour_of_day', 'day_of_week', 'country_Australia',
+       'country_Brazil', 'country_Canada', 'country_China', 'country_France',
+       'country_Germany', 'country_Japan', 'country_Korea Republic of',
+       'country_Other', 'country_United Kingdom', 'country_United States'],
+      dtype='object').
+2025-02-10 16:31:01,081 - ERROR - Columns parameter should be a list of column names.
+2025-02-10 16:31:17,273 - INFO - Removing rows with null values in columns: ['user_id', 'signup_time', 'purchase_time', 'purchase_value', 'device_id', 'source', 'browser', 'sex', 'age', 'ip_address', 'class', 'ip_int', 'lower_bound_ip_address', 'upper_bound_ip_address', 'transaction_count', 'hour_of_day', 'day_of_week', 'country_Australia', 'country_Brazil', 'country_Canada', 'country_China', 'country_France', 'country_Germany', 'country_Japan', 'country_Korea Republic of', 'country_Other', 'country_United Kingdom', 'country_United States'].
+2025-02-10 16:31:17,371 - INFO - Rows with null values in columns ['user_id', 'signup_time', 'purchase_time', 'purchase_value', 'device_id', 'source', 'browser', 'sex', 'age', 'ip_address', 'class', 'ip_int', 'lower_bound_ip_address', 'upper_bound_ip_address', 'transaction_count', 'hour_of_day', 'day_of_week', 'country_Australia', 'country_Brazil', 'country_Canada', 'country_China', 'country_France', 'country_Germany', 'country_Japan', 'country_Korea Republic of', 'country_Other', 'country_United Kingdom', 'country_United States'] removed successfully.
+2025-02-10 16:31:31,136 - INFO - Checking for missing values in the DataFrame.
+2025-02-10 16:31:31,188 - INFO - Missing values check completed.
+2025-02-11 09:28:35,753 - INFO - Preparing fraud dataset...
+2025-02-11 09:43:03,637 - INFO - Training LogisticRegression on fraud dataset...
+2025-02-11 09:49:12,524 - INFO - Training LogisticRegression on fraud dataset...
+2025-02-11 09:59:45,557 - INFO - Training LogisticRegression on fraud dataset...
+2025-02-11 09:59:59,537 - INFO - LogisticRegression Accuracy: 0.9500
+2025-02-11 09:59:59,610 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.99      0.97     27103
+         1.0       0.91      0.53      0.67      2866
+
+    accuracy                           0.95     29969
+   macro avg       0.93      0.76      0.82     29969
+weighted avg       0.95      0.95      0.94     29969
+
+2025-02-11 09:59:59,705 - INFO - Training DecisionTree on fraud dataset...
+2025-02-11 10:00:10,711 - INFO - DecisionTree Accuracy: 0.9134
+2025-02-11 10:00:10,783 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.95      0.95     27103
+         1.0       0.54      0.60      0.57      2866
+
+    accuracy                           0.91     29969
+   macro avg       0.75      0.77      0.76     29969
+weighted avg       0.92      0.91      0.92     29969
+
+2025-02-11 10:00:10,890 - INFO - Training RandomForest on fraud dataset...
+2025-02-11 10:01:16,721 - INFO - RandomForest Accuracy: 0.9559
+2025-02-11 10:01:16,784 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       0.99      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-11 10:01:16,871 - INFO - Training GradientBoosting on fraud dataset...
+2025-02-11 10:02:24,608 - INFO - GradientBoosting Accuracy: 0.9560
+2025-02-11 10:02:24,656 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       1.00      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-11 10:03:13,025 - INFO - Training LogisticRegression on creditcard dataset...
+2025-02-11 10:03:20,037 - INFO - LogisticRegression Accuracy: 0.9991
+2025-02-11 10:03:20,119 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.85      0.56      0.67        98
+
+    accuracy                           1.00     56962
+   macro avg       0.92      0.78      0.84     56962
+weighted avg       1.00      1.00      1.00     56962
+
+2025-02-11 10:03:20,248 - INFO - Training DecisionTree on creditcard dataset...
+2025-02-11 10:03:52,239 - INFO - DecisionTree Accuracy: 0.9990
+2025-02-11 10:03:52,327 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.69      0.81      0.74        98
+
+    accuracy                           1.00     56962
+   macro avg       0.84      0.90      0.87     56962
+weighted avg       1.00      1.00      1.00     56962
+
+2025-02-11 10:03:52,408 - INFO - Training RandomForest on creditcard dataset...
+2025-02-11 10:08:56,157 - INFO - RandomForest Accuracy: 0.9996
+2025-02-11 10:08:56,235 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.96      0.79      0.87        98
+
+    accuracy                           1.00     56962
+   macro avg       0.98      0.89      0.93     56962
+weighted avg       1.00      1.00      1.00     56962
+
+2025-02-11 10:08:56,313 - INFO - Training GradientBoosting on creditcard dataset...
+2025-02-11 10:17:05,697 - INFO - GradientBoosting Accuracy: 0.9989
+2025-02-11 10:17:05,775 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.74      0.60      0.66        98
+
+    accuracy                           1.00     56962
+   macro avg       0.87      0.80      0.83     56962
+weighted avg       1.00      1.00      1.00     56962
+
