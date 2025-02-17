@@ -31958,3 +31958,150 @@ weighted avg       1.00      1.00      1.00     56962
    macro avg       0.87      0.80      0.83     56962
 weighted avg       1.00      1.00      1.00     56962
 
+2025-02-17 10:01:24,670 - INFO - Using CPU
+2025-02-17 10:35:53,372 - INFO - Training LogisticRegression on fraud dataset...
+2025-02-17 10:36:14,119 - INFO - LogisticRegression Accuracy: 0.9500
+2025-02-17 10:36:14,259 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.99      0.97     27103
+         1.0       0.91      0.53      0.67      2866
+
+    accuracy                           0.95     29969
+   macro avg       0.93      0.76      0.82     29969
+weighted avg       0.95      0.95      0.94     29969
+
+2025-02-17 10:36:14,425 - INFO - Training DecisionTree on fraud dataset...
+2025-02-17 10:36:33,427 - INFO - DecisionTree Accuracy: 0.9135
+2025-02-17 10:36:33,639 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.95      0.95     27103
+         1.0       0.54      0.60      0.57      2866
+
+    accuracy                           0.91     29969
+   macro avg       0.75      0.77      0.76     29969
+weighted avg       0.92      0.91      0.92     29969
+
+2025-02-17 10:36:33,790 - INFO - Training RandomForest on fraud dataset...
+2025-02-17 10:38:26,394 - INFO - RandomForest Accuracy: 0.9560
+2025-02-17 10:38:26,600 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       0.99      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-17 10:38:26,845 - INFO - Training GradientBoosting on fraud dataset...
+2025-02-17 10:40:52,072 - INFO - GradientBoosting Accuracy: 0.9560
+2025-02-17 10:40:52,198 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       1.00      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-17 14:20:36,401 - INFO - Training LogisticRegression on fraud dataset...
+2025-02-17 14:21:08,307 - INFO - LogisticRegression Accuracy: 0.9500
+2025-02-17 14:21:08,526 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.99      0.97     27103
+         1.0       0.91      0.53      0.67      2866
+
+    accuracy                           0.95     29969
+   macro avg       0.93      0.76      0.82     29969
+weighted avg       0.95      0.95      0.94     29969
+
+2025-02-17 14:21:08,803 - INFO - Training DecisionTree on fraud dataset...
+2025-02-17 14:21:30,171 - INFO - DecisionTree Accuracy: 0.9129
+2025-02-17 14:21:30,319 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.95      0.95     27103
+         1.0       0.54      0.60      0.57      2866
+
+    accuracy                           0.91     29969
+   macro avg       0.75      0.77      0.76     29969
+weighted avg       0.92      0.91      0.91     29969
+
+2025-02-17 14:21:30,442 - INFO - Training RandomForest on fraud dataset...
+2025-02-17 14:22:50,142 - INFO - RandomForest Accuracy: 0.9559
+2025-02-17 14:22:50,256 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       0.99      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-17 14:22:50,380 - INFO - Training GradientBoosting on fraud dataset...
+2025-02-17 14:24:10,807 - INFO - GradientBoosting Accuracy: 0.9559
+2025-02-17 14:24:10,930 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       1.00      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-17 14:26:10,554 - INFO - SHAP Summary Plot saved for fraud dataset.
+2025-02-17 14:33:40,894 - INFO - SHAP Summary Plot saved for fraud dataset.
+2025-02-17 14:48:56,698 - INFO - Training LogisticRegression on fraud dataset...
+2025-02-17 14:49:17,098 - INFO - LogisticRegression Accuracy: 0.9500
+2025-02-17 14:49:17,209 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.99      0.97     27103
+         1.0       0.91      0.53      0.67      2866
+
+    accuracy                           0.95     29969
+   macro avg       0.93      0.76      0.82     29969
+weighted avg       0.95      0.95      0.94     29969
+
+2025-02-17 14:49:17,378 - INFO - Training DecisionTree on fraud dataset...
+2025-02-17 14:49:44,688 - INFO - DecisionTree Accuracy: 0.9125
+2025-02-17 14:49:44,893 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.95      0.95     27103
+         1.0       0.54      0.60      0.57      2866
+
+    accuracy                           0.91     29969
+   macro avg       0.75      0.77      0.76     29969
+weighted avg       0.92      0.91      0.91     29969
+
+2025-02-17 14:49:45,108 - INFO - Training RandomForest on fraud dataset...
+2025-02-17 14:51:54,917 - INFO - RandomForest Accuracy: 0.9558
+2025-02-17 14:51:55,037 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       0.99      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-17 14:51:55,168 - INFO - Training GradientBoosting on fraud dataset...
+2025-02-17 14:54:07,967 - INFO - GradientBoosting Accuracy: 0.9560
+2025-02-17 14:54:08,097 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       1.00      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
