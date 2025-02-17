@@ -3,18 +3,20 @@ import numpy as np
 import logging
 import mlflow
 import mlflow.sklearn
+import joblib
+import os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class FraudDetectionML:
-    def __init__(self, fraud_data_path, creditcard_data_path):
+    def __init__(self, fraud_data_path, creditcard_data_path, model_save_path="models"):
         """Initialize and load datasets"""
         self.fraud_data = pd.read_pickle(fraud_data_path)
         self.creditcard_data = pd.read_csv(creditcard_data_path)
@@ -26,6 +28,9 @@ class FraudDetectionML:
             "GradientBoosting": GradientBoostingClassifier()
         }
         self.scaler = StandardScaler()
+        self.model_save_path = model_save_path
+        os.makedirs(self.model_save_path, exist_ok=True)
+
     def prepare_data(self, dataset_type='fraud'):
         """Prepare dataset by separating features and target, encoding categorical features, and scaling numerical features."""
         if dataset_type == 'fraud':
@@ -65,24 +70,54 @@ class FraudDetectionML:
         X_train, X_test, y_train, y_test = self.prepare_data(dataset_type)
         
         mlflow.set_experiment(f"Fraud_Detection_{dataset_type}")
+        best_model = None
+        best_score = 0
         
         for model_name, model in self.models.items():
             with mlflow.start_run():
                 logging.info(f"Training {model_name} on {dataset_type} dataset...")
                 model.fit(X_train, y_train)
                 predictions = model.predict(X_test)
+                
                 acc = accuracy_score(y_test, predictions)
+                precision = precision_score(y_test, predictions, average='weighted')
+                recall = recall_score(y_test, predictions, average='weighted')
+                f1 = f1_score(y_test, predictions, average='weighted')
                 
                 # Log model and metrics to MLflow
                 mlflow.log_param("model", model_name)
                 mlflow.log_metric("accuracy", acc)
+                mlflow.log_metric("precision", precision)
+                mlflow.log_metric("recall", recall)
+                mlflow.log_metric("f1_score", f1)
                 mlflow.sklearn.log_model(model, model_name)
                 
-                logging.info(f"{model_name} Accuracy: {acc:.4f}")
+                logging.info(f"{model_name} Metrics - Accuracy: {acc:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}")
                 logging.info("Classification Report:\n" + classification_report(y_test, predictions))
-'''     
+                
+                # Determine the best model based on F1 Score
+                if f1 > best_score:
+                    best_score = f1
+                    best_model = model
+                    best_model_name = model_name
+        
+        # Save the best model and scaler
+        if best_model:
+            self.save_best_model(best_model, best_model_name, dataset_type)
+
+    def save_best_model(self, model, model_name, dataset_type):
+        """Save the best performing model and scaler using joblib."""
+        model_file = os.path.join(self.model_save_path, f"{dataset_type}_{model_name}.pkl")
+        scaler_file = os.path.join(self.model_save_path, f"{dataset_type}_scaler.pkl")
+        
+        joblib.dump(model, model_file)
+        joblib.dump(self.scaler, scaler_file)
+        
+        logging.info(f"Best model saved: {model_file}")
+        logging.info(f"Scaler saved: {scaler_file}")
+'''
 if __name__ == "__main__":
     fraud_ml = FraudDetectionML("preprocessed_fraud_data.pkl", "creditcard_data.csv")
     fraud_ml.train_and_evaluate('fraud')
     fraud_ml.train_and_evaluate('creditcard')
-''' 
+ '''
