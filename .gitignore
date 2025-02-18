@@ -15,6 +15,7 @@ __pycache__/
 *.un~
 *.tmp
 *.temp
+*.pkl 
 
 # Ignore IDE-specific files
 .vscode/
