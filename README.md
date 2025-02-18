@@ -162,9 +162,6 @@ http://127.0.0.1:8050
 ## **Contributions**
 🚀 Feel free to contribute by submitting issues, feature requests, or pull requests! 🎯
 
----
-## **License**
-This project is licensed under the **MIT License**.
 
 ---
 📢 **Follow for Updates!** 🚀🔥
