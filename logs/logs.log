@@ -32205,3 +32205,23 @@ weighted avg       1.00      1.00      1.00     56962
 
 2025-02-17 16:00:49,045 - INFO - Best model saved: models\creditcard_RandomForest.pkl
 2025-02-17 16:00:49,046 - INFO - Scaler saved: models\creditcard_scaler.pkl
+2025-02-18 06:27:03,539 - INFO - Data successfully loaded from ../week 8-9 data/Data/Fraud_Data.csv
+2025-02-18 06:27:03,547 - INFO - DataFrame Shape: (151112, 11)
+2025-02-18 06:27:03,573 - INFO - Transforming datetime column 'signup_time' without timezone conversion.
+2025-02-18 06:27:03,711 - INFO - Datetime transformation for column 'signup_time' completed.
+2025-02-18 06:27:03,712 - INFO - Transforming datetime column 'purchase_time' without timezone conversion.
+2025-02-18 06:27:03,829 - INFO - Datetime transformation for column 'purchase_time' completed.
+2025-02-18 06:27:03,843 - INFO - Checking for missing values in the DataFrame.
+2025-02-18 06:27:03,875 - INFO - Missing values check completed.
+2025-02-18 06:27:06,199 - INFO - Data successfully loaded from ../week 8-9 data/Data/creditcard.csv
+2025-02-18 06:27:06,200 - INFO - DataFrame Shape: (284807, 31)
+2025-02-18 06:27:06,213 - INFO - Checking for missing values in the DataFrame.
+2025-02-18 06:27:06,243 - INFO - Missing values check completed.
+2025-02-18 06:27:06,363 - INFO - Data successfully loaded from ../week 8-9 data/Data/IpAddress_to_Country.csv
+2025-02-18 06:27:06,364 - INFO - DataFrame Shape: (138846, 3)
+2025-02-18 06:27:06,376 - INFO - Checking for missing values in the DataFrame.
+2025-02-18 06:27:06,388 - INFO - Missing values check completed.
+2025-02-18 06:27:06,447 - INFO - Converting IP addresses to integer format.
+2025-02-18 06:27:06,451 - INFO - IP address conversion completed successfully.
+2025-02-18 06:27:06,467 - INFO - Merging fraud_data with ip_address_data.
+2025-02-18 06:27:06,585 - INFO - Merging completed successfully.
