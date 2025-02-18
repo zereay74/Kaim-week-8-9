@@ -1,0 +1,193 @@
+2025-02-17 16:14:24,138 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:14:25,429 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.172.71.66:5000
+2025-02-17 16:14:25,430 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-17 16:14:25,464 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:14:27,719 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:14:27,727 - WARNING -  * Debugger is active!
+2025-02-17 16:14:27,743 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:17:17,511 - INFO - 127.0.0.1 - - [17/Feb/2025 16:17:17] "GET / HTTP/1.1" 200 -
+2025-02-17 16:17:17,764 - INFO - 127.0.0.1 - - [17/Feb/2025 16:17:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-17 16:18:14,622 - INFO - 127.0.0.1 - - [17/Feb/2025 16:18:14] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-02-17 16:18:30,288 - INFO - 127.0.0.1 - - [17/Feb/2025 16:18:30] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-02-17 16:19:03,073 - INFO - 127.0.0.1 - - [17/Feb/2025 16:19:03] "[33mGET /docs HTTP/1.1[0m" 404 -
+2025-02-17 16:19:07,389 - INFO - 127.0.0.1 - - [17/Feb/2025 16:19:07] "[33mGET /doc HTTP/1.1[0m" 404 -
+2025-02-17 16:21:01,755 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:21:02,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.172.71.66:5000
+2025-02-17 16:21:02,714 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-17 16:21:02,729 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:21:04,876 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:21:04,892 - WARNING -  * Debugger is active!
+2025-02-17 16:21:04,892 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:23:41,127 - INFO - 127.0.0.1 - - [17/Feb/2025 16:23:41] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-02-17 16:24:38,785 - INFO - 10.172.71.66 - - [17/Feb/2025 16:24:38] "GET / HTTP/1.1" 200 -
+2025-02-17 16:24:38,966 - INFO - 10.172.71.66 - - [17/Feb/2025 16:24:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-17 16:24:51,668 - INFO - 10.172.71.66 - - [17/Feb/2025 16:24:51] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-02-17 16:24:57,306 - INFO - 10.172.71.66 - - [17/Feb/2025 16:24:57] "GET / HTTP/1.1" 200 -
+2025-02-17 16:27:13,895 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\mlflow\\sklearn\\__init__.py', reloading
+2025-02-17 16:27:14,919 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:27:17,306 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:27:17,321 - WARNING -  * Debugger is active!
+2025-02-17 16:27:17,321 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:34:59,582 - ERROR - Error processing request: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- feature1
+- feature2
+- feature3
+- feature4
+Feature names seen at fit time, yet now missing:
+- age
+- browser
+- country_Australia
+- country_Brazil
+- country_Canada
+- ...
+
+2025-02-17 16:34:59,584 - INFO - 127.0.0.1 - - [17/Feb/2025 16:34:59] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-02-17 16:35:32,780 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\mlflow\\entities\\__init__.py', reloading
+2025-02-17 16:35:33,131 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:35:36,924 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:35:36,950 - WARNING -  * Debugger is active!
+2025-02-17 16:35:36,960 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:35:39,932 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\sklearn\\metrics\\_classification.py', reloading
+2025-02-17 16:35:40,242 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:35:43,500 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:35:43,530 - WARNING -  * Debugger is active!
+2025-02-17 16:35:43,530 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:36:36,570 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\sklearn\\model_selection\\_split.py', reloading
+2025-02-17 16:36:36,990 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:36:40,736 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:36:40,765 - WARNING -  * Debugger is active!
+2025-02-17 16:36:40,776 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:39:36,320 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\pyparsing\\core.py', reloading
+2025-02-17 16:39:36,640 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:39:39,982 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:39:40,008 - WARNING -  * Debugger is active!
+2025-02-17 16:39:40,021 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:40:42,920 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\joblib\\numpy_pickle.py', reloading
+2025-02-17 16:40:42,930 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\IPython\\core\\interactiveshell.py', reloading
+2025-02-17 16:40:43,600 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:40:46,910 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:40:46,947 - WARNING -  * Debugger is active!
+2025-02-17 16:40:46,962 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:42:57,295 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\joblib\\__init__.py', reloading
+2025-02-17 16:42:57,318 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\__init__.py', reloading
+2025-02-17 16:42:57,334 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numpy\\_typing\\_scalars.py', reloading
+2025-02-17 16:42:57,352 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\scipy\\__init__.py', reloading
+2025-02-17 16:42:57,390 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\joblib\\compressor.py', reloading
+2025-02-17 16:42:57,391 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\joblib\\numpy_pickle_utils.py', reloading
+2025-02-17 16:42:57,402 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\posixpath.py', reloading
+2025-02-17 16:42:57,402 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\importlib\\__init__.py', reloading
+2025-02-17 16:42:57,416 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\explainers\\_explainer.py', reloading
+2025-02-17 16:42:57,418 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\explainers\\_tree.py', reloading
+2025-02-17 16:42:57,418 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\plots\\_beeswarm.py', reloading
+2025-02-17 16:42:57,419 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\plots\\_scatter.py', reloading
+2025-02-17 16:42:57,420 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\links.py', reloading
+2025-02-17 16:42:57,421 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\utils\\__init__.py', reloading
+2025-02-17 16:42:57,421 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\utils\\_legacy.py', reloading
+2025-02-17 16:42:57,422 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\utils\\_general.py', reloading
+2025-02-17 16:42:57,422 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\maskers\\__init__.py', reloading
+2025-02-17 16:42:57,423 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\explainers\\other\\_ubjson.py', reloading
+2025-02-17 16:42:57,423 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\xgboost\\__init__.py', reloading
+2025-02-17 16:42:57,424 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\models\\__init__.py', reloading
+2025-02-17 16:42:57,425 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\_serializable.py', reloading
+2025-02-17 16:42:57,425 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\shap\\utils\\transformers.py', reloading
+2025-02-17 16:42:57,426 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\xgboost\\core.py', reloading
+2025-02-17 16:42:57,427 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\xgboost\\_typing.py', reloading
+2025-02-17 16:42:57,428 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\__init__.py', reloading
+2025-02-17 16:42:57,429 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\errors.py', reloading
+2025-02-17 16:42:57,430 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\__init__.py', reloading
+2025-02-17 16:42:57,431 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\abstract.py', reloading
+2025-02-17 16:42:57,432 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\containers.py', reloading
+2025-02-17 16:42:57,432 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\function_type.py', reloading
+2025-02-17 16:42:57,433 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\functions.py', reloading
+2025-02-17 16:42:57,434 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\iterators.py', reloading
+2025-02-17 16:42:57,434 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\misc.py', reloading
+2025-02-17 16:42:57,435 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\npytypes.py', reloading
+2025-02-17 16:42:57,436 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\types\\scalars.py', reloading
+2025-02-17 16:42:57,437 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\decorators.py', reloading
+2025-02-17 16:42:57,437 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\target_extension.py', reloading
+2025-02-17 16:42:57,438 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\utils.py', reloading
+2025-02-17 16:42:57,439 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\registry.py', reloading
+2025-02-17 16:42:57,440 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\extending.py', reloading
+2025-02-17 16:42:57,441 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\sigutils.py', reloading
+2025-02-17 16:42:57,441 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\cuda\\__init__.py', reloading
+2025-02-17 16:42:57,442 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\core\\typeinfer.py', reloading
+2025-02-17 16:42:57,443 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\cuda\\simulator_init.py', reloading
+2025-02-17 16:42:57,445 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\cuda\\device_init.py', reloading
+2025-02-17 16:42:57,445 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\cuda\\compiler.py', reloading
+2025-02-17 16:42:57,446 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\numba\\cuda\\simulator\\__init__.py', reloading
+2025-02-17 16:42:57,744 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:43:01,441 - INFO - Model and Scaler loaded successfully.
+2025-02-17 16:43:01,464 - WARNING -  * Debugger is active!
+2025-02-17 16:43:01,472 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:45:49,448 - INFO -  * Detected change in 'C:\\ML and DS Files\\Kifiya AI\\Kaim-week-8-9\\fraud_detection_api\\serve_model.py', reloading
+2025-02-17 16:45:49,448 - INFO -  * Detected change in 'C:\\ML and DS Files\\Kifiya AI\\Kaim-week-8-9\\fraud_detection_api\\serve_model.py', reloading
+2025-02-17 16:45:50,299 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:46:00,884 - INFO - Model, Scaler, and Feature Names loaded successfully.
+2025-02-17 16:46:01,872 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.172.71.66:5000
+2025-02-17 16:46:01,872 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-17 16:46:01,888 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-17 16:46:05,498 - INFO - Model, Scaler, and Feature Names loaded successfully.
+2025-02-17 16:46:05,535 - WARNING -  * Debugger is active!
+2025-02-17 16:46:05,547 - INFO -  * Debugger PIN: 559-915-890
+2025-02-17 16:47:14,291 - ERROR - Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting value: line 2 column 1 (char 2)
+2025-02-17 16:47:14,294 - INFO - 127.0.0.1 - - [17/Feb/2025 16:47:14] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-02-17 16:48:58,845 - INFO - 127.0.0.1 - - [17/Feb/2025 16:48:58] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-02-17 16:52:10,610 - INFO - 127.0.0.1 - - [17/Feb/2025 16:52:10] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-02-17 16:54:12,328 - ERROR - Error processing request: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- browser
+- device_id
+- ip_address
+- sex
+- source
+
+2025-02-17 16:54:12,329 - INFO - 127.0.0.1 - - [17/Feb/2025 16:54:12] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-02-18 05:56:33,780 - INFO - Model, Scaler, and Feature Names loaded successfully.
+2025-02-18 05:56:33,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.11:5000
+2025-02-18 05:56:33,824 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 05:56:33,846 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-18 05:56:36,088 - INFO - Model, Scaler, and Feature Names loaded successfully.
+2025-02-18 05:56:36,106 - WARNING -  * Debugger is active!
+2025-02-18 05:56:36,119 - INFO -  * Debugger PIN: 559-915-890
+2025-02-18 05:56:46,219 - ERROR - Error processing request: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- browser
+- device_id
+- ip_address
+- sex
+- source
+
+2025-02-18 05:56:46,220 - INFO - 127.0.0.1 - - [18/Feb/2025 05:56:46] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-02-18 05:58:41,385 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\mlflow\\tensorflow\\__init__.py', reloading
+2025-02-18 05:58:41,835 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-18 05:58:45,712 - INFO - Model, Scaler, and Feature Names loaded successfully.
+2025-02-18 05:58:45,729 - WARNING -  * Debugger is active!
+2025-02-18 05:58:45,734 - INFO -  * Debugger PIN: 559-915-890
+2025-02-18 06:06:09,945 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\mlflow\\models\\model.py', reloading
+2025-02-18 06:06:10,036 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\mlflow\\version.py', reloading
+2025-02-18 06:06:10,105 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\mlflow\\utils\\lazy_load.py', reloading
+2025-02-18 06:06:11,085 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-18 06:06:13,985 - INFO - Model, Scaler, and Feature Names loaded successfully.
+2025-02-18 06:06:14,007 - WARNING -  * Debugger is active!
+2025-02-18 06:06:14,012 - INFO -  * Debugger PIN: 559-915-890
+2025-02-18 06:09:39,490 - INFO -  * Detected change in 'C:\\Users\\z_user\\anaconda3\\envs\\z_env\\Lib\\site-packages\\pandas\\core\\frame.py', reloading
+2025-02-18 06:09:40,632 - INFO -  * Restarting with watchdog (windowsapi)
+2025-02-18 06:09:43,216 - INFO - Model, Scaler, and Feature Names loaded successfully.
+2025-02-18 06:09:43,241 - WARNING -  * Debugger is active!
+2025-02-18 06:09:43,247 - INFO -  * Debugger PIN: 559-915-890
+2025-02-18 06:21:26,773 - INFO - Received request: {'user_id': 0.411353223, 'signup_time': 1.0063485961, 'purchase_time': 0.6639727642, 'purchase_value': 0.5503344848, 'device_id': -0.2604222185, 'source': 0.538291716, 'browser': -1.012117032, 'sex': -1.185186021, 'age': -0.3663654721, 'ip_address': -1.7223301067, 'ip_int': -1.7223301063, 'lower_bound_ip_address': -1.7605149233, 'upper_bound_ip_address': -1.7680786747, 'transaction_count': 0.0, 'hour_of_day': -1.2316573921, 'day_of_week': 1.488933599, 'country_Australia': -0.4047234294, 'country_Brazil': -0.1424766646, 'country_Canada': -0.1416822582, 'country_China': -0.2927731154, 'country_France': -0.1476033616, 'country_Germany': -0.1581753866, 'country_Japan': -0.236446427, 'country_Korea Republic of': 6.099269095, 'country_Other': -0.4858933524, 'country_United Kingdom': -0.1752256176, 'country_United States': -0.808164}
+2025-02-18 06:21:26,773 - INFO - Prediction: 0, Probability: 0.2800
+2025-02-18 06:21:26,774 - INFO - 127.0.0.1 - - [18/Feb/2025 06:21:26] "POST /predict HTTP/1.1" 200 -

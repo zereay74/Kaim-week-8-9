@@ -32105,3 +32105,103 @@ weighted avg       0.96      0.96      0.95     29969
    macro avg       0.97      0.77      0.84     29969
 weighted avg       0.96      0.96      0.95     29969
 
+2025-02-17 15:43:21,507 - INFO - Training LogisticRegression on fraud dataset...
+2025-02-17 15:43:32,317 - INFO - LogisticRegression Metrics - Accuracy: 0.9500, Precision: 0.9483, Recall: 0.9500, F1 Score: 0.9440
+2025-02-17 15:43:32,390 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.99      0.97     27103
+         1.0       0.91      0.53      0.67      2866
+
+    accuracy                           0.95     29969
+   macro avg       0.93      0.76      0.82     29969
+weighted avg       0.95      0.95      0.94     29969
+
+2025-02-17 15:43:32,475 - INFO - Training DecisionTree on fraud dataset...
+2025-02-17 15:43:44,819 - INFO - DecisionTree Metrics - Accuracy: 0.9130, Precision: 0.9174, Recall: 0.9130, F1 Score: 0.9150
+2025-02-17 15:43:44,880 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.95      0.95     27103
+         1.0       0.54      0.60      0.57      2866
+
+    accuracy                           0.91     29969
+   macro avg       0.75      0.77      0.76     29969
+weighted avg       0.92      0.91      0.92     29969
+
+2025-02-17 15:43:44,956 - INFO - Training RandomForest on fraud dataset...
+2025-02-17 15:44:51,737 - INFO - RandomForest Metrics - Accuracy: 0.9559, Precision: 0.9576, Recall: 0.9559, F1 Score: 0.9500
+2025-02-17 15:44:51,804 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       0.99      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-17 15:44:51,888 - INFO - Training GradientBoosting on fraud dataset...
+2025-02-17 15:46:00,660 - INFO - GradientBoosting Metrics - Accuracy: 0.9560, Precision: 0.9578, Recall: 0.9560, F1 Score: 0.9500
+2025-02-17 15:46:00,728 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98     27103
+         1.0       1.00      0.54      0.70      2866
+
+    accuracy                           0.96     29969
+   macro avg       0.97      0.77      0.84     29969
+weighted avg       0.96      0.96      0.95     29969
+
+2025-02-17 15:46:00,828 - INFO - Best model saved: models\fraud_RandomForest.pkl
+2025-02-17 15:46:00,828 - INFO - Scaler saved: models\fraud_scaler.pkl
+2025-02-17 15:46:11,892 - INFO - Training LogisticRegression on creditcard dataset...
+2025-02-17 15:46:19,150 - INFO - LogisticRegression Metrics - Accuracy: 0.9991, Precision: 0.9990, Recall: 0.9991, F1 Score: 0.9990
+2025-02-17 15:46:19,224 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.85      0.56      0.67        98
+
+    accuracy                           1.00     56962
+   macro avg       0.92      0.78      0.84     56962
+weighted avg       1.00      1.00      1.00     56962
+
+2025-02-17 15:46:19,313 - INFO - Training DecisionTree on creditcard dataset...
+2025-02-17 15:46:52,087 - INFO - DecisionTree Metrics - Accuracy: 0.9991, Precision: 0.9991, Recall: 0.9991, F1 Score: 0.9991
+2025-02-17 15:46:52,152 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.72      0.77      0.74        98
+
+    accuracy                           1.00     56962
+   macro avg       0.86      0.88      0.87     56962
+weighted avg       1.00      1.00      1.00     56962
+
+2025-02-17 15:46:52,232 - INFO - Training RandomForest on creditcard dataset...
+2025-02-17 15:51:55,966 - INFO - RandomForest Metrics - Accuracy: 0.9996, Precision: 0.9996, Recall: 0.9996, F1 Score: 0.9996
+2025-02-17 15:51:56,089 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.97      0.78      0.86        98
+
+    accuracy                           1.00     56962
+   macro avg       0.99      0.89      0.93     56962
+weighted avg       1.00      1.00      1.00     56962
+
+2025-02-17 15:51:56,172 - INFO - Training GradientBoosting on creditcard dataset...
+2025-02-17 16:00:48,865 - INFO - GradientBoosting Metrics - Accuracy: 0.9989, Precision: 0.9989, Recall: 0.9989, F1 Score: 0.9989
+2025-02-17 16:00:48,964 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.74      0.60      0.66        98
+
+    accuracy                           1.00     56962
+   macro avg       0.87      0.80      0.83     56962
+weighted avg       1.00      1.00      1.00     56962
+
+2025-02-17 16:00:49,045 - INFO - Best model saved: models\creditcard_RandomForest.pkl
+2025-02-17 16:00:49,046 - INFO - Scaler saved: models\creditcard_scaler.pkl
